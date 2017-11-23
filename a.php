@@ -87,6 +87,7 @@
 									clearInterval(i1);
 									j=0.21;
 								}
+								y=0.79;
 							}
 						}else{
 							k && clearInterval(k);
@@ -99,13 +100,14 @@
 									clearInterval(i1);
 									j=0.99;
 								}
+								y=0.01;
 							}
 						 	if(document.documentElement.scrollTop==0){
 						 		d1.style.opacity=1;
 						 		d1.style.backgroundColor="rgb(152,152,152)";
 				 				d2.style.display='none';
 				 				d2.style.opacity='0';
-				 				y=0;
+				 				y=0.01;
 								for(i1=1;i1<k;i1++){
 									clearInterval(i1);
 									j=0.99;
